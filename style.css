@@ -1,0 +1,66 @@
+
+    body{
+        height: 100vh;
+        align-items: center;
+        background-image: url(img/body/big.jpeg);
+        background-size: cover; /* Ajusta o tamanho da imagem para cobrir o fundo */
+        font-style: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }    
+
+    h1{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(3, 44, 28);
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .container-botao{
+        display: flex;
+        text-align: center;
+        max-width: 170px;
+        padding: 0px 5px 0px;
+        border-radius: 100px;
+        background-color: rgb(0, 0, 0);
+        align-items: center;
+    }
+    .sol {        
+        padding: 20px 15px;        
+        font-size: 5px;
+        background-color: rgb(238, 238, 98);
+        font-style: oblique;
+        border-radius: 100px;
+    }
+    .lua {
+        padding: 20px 15px;        
+        color: aliceblue;
+        font-size: 5px;
+        background-color: rgb(79, 79, 230);
+        font-style: oblique;
+        border-radius: 100px;
+    }
+    img {
+        width: 50px; /* Ajuste a largura conforme necessário */
+        height: 50px; /* Ajuste a altura conforme necessário */
+        margin-right: 5px; /* Adiciona espaço entre a imagem e o texto */
+
+    }
+    .modo_diurno {
+    
+    background-image: url(img/body/dia.jpg);
+    background-size: cover; 
+    background-color: rgb(64, 109, 110); 
+    
+    }
+    .modo_noturno {
+        h1 {
+            color: rgb(0, 0, 0);
+        }
+        background-image: url(img/body/noturno.jpg);
+        background-size: cover; /* Ajusta o tamanho da imagem para cobrir o fundo */
+        background-color: rgb(64, 109, 110); /* Cor de backup para caso a imagem não carregue */
+        }
